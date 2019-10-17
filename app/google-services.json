@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406810928854",
+    "firebase_url": "https://xp-booster-25443559.firebaseio.com",
+    "project_id": "xp-booster-25443559",
+    "storage_bucket": "xp-booster-25443559.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406810928854:android:b9a3bc00e72d0c508b0b77",
+        "android_client_info": {
+          "package_name": "com.nightowldevelopers.xpboosterplus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406810928854-n9oj9pivubjs9dhornvmh82d8resb4qr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowldevelopers.xpboosterplus",
+            "certificate_hash": "bc33aa2ded7c9da604de004707b2fb447c83f5a8"
+          }
+        },
+        {
+          "client_id": "406810928854-k5o40rru7gtkiq4prg33312dol44499h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJd0vDD-eulcKWvHBbgNn0-ePqTpUFueU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406810928854-k5o40rru7gtkiq4prg33312dol44499h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
