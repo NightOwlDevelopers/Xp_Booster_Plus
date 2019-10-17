@@ -56,8 +56,7 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
 
         achievement.setOnClickListener { showAchievements() }
         leaderboard.setOnClickListener { showLeaderboard() }
-
-        instagram.setOnClickListener {
+/*   instagram.setOnClickListener {
             val uri = Uri.parse("http://instagram.com/nightowldevelopers")
             val likeIng = Intent(Intent.ACTION_VIEW, uri)
 
@@ -117,7 +116,8 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
                 }, 13000)
             }
 
-        }
+        }*/
+
 
         /* rateApp.setOnClickListener {
              Toast.makeText(
@@ -164,10 +164,10 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
                         Uri.parse("market://details?id=com.nightowldevelopers.levelup2")
                     )
                 )
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .unlock(getString(R.string.achievement_more_xp))
-                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 80000)
+//                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+//                    .unlock(getString(R.string.achievement_more_xp))
+//                Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+//                    .submitScore(getString(R.string.leaderboard_leaderboard), 80000)
             } catch (anfe: ActivityNotFoundException) {
                 startActivity(
                     Intent(
@@ -175,10 +175,10 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
                         Uri.parse("https://play.google.com/store/apps/dev?id=$developerurl")
                     )
                 )
-                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
+              /*  Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
                     .unlock(getString(R.string.achievement_more_xp))
                 Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                    .submitScore(getString(R.string.leaderboard_leaderboard), 80000)
+                    .submitScore(getString(R.string.leaderboard_leaderboard), 80000)*/
             }
 
         }
@@ -456,11 +456,11 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
             Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
                 .submitScore(getString(R.string.leaderboard_leaderboard), 40000)
             Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                .unlock(getString(R.string.achievement_level_5__rate_app_and_win_additional_xp))
+                .unlock(getString(R.string.achievement_level_5))
             Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
                 .submitScore(getString(R.string.leaderboard_leaderboard), 50000)
             Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
-                .unlock(getString(R.string.achievement_level_6__follow_us_on_instagram_and_unlock_level_7))
+                .unlock(getString(R.string.achievement_level_6))
             Games.getLeaderboardsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
                 .submitScore(getString(R.string.leaderboard_leaderboard), 60000)
             Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)

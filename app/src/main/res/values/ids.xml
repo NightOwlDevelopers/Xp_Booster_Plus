@@ -5,7 +5,39 @@ Save this file as res/values/games-ids.xml in your project.
 -->
 <resources>
     <!-- app_id -->
-    <string name="app_id" translatable="false">406810928854</string>
+    <string name="app_id" translatable="false">319746399637</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.nightowldevelopers.levelup</string>
     <!-- achievement Level 1 -->
-    <string name="achievement_level_1" translatable="false">CgkI1s3IvusLEAIQAA</string>
+    <string name="achievement_level_1" translatable="false">CgkIlbv7kqcJEAIQAg</string>
+    <!-- achievement Level 2 -->
+    <string name="achievement_level_2" translatable="false">CgkIlbv7kqcJEAIQAw</string>
+    <!-- achievement Level 3 -->
+    <string name="achievement_level_3" translatable="false">CgkIlbv7kqcJEAIQBA</string>
+    <!-- achievement level 4 -->
+    <string name="achievement_level_4" translatable="false">CgkIlbv7kqcJEAIQBQ</string>
+    <!-- achievement level 5 -->
+    <string name="achievement_level_5" translatable="false">CgkIlbv7kqcJEAIQBg</string>
+    <!-- achievement level 6 -->
+    <string name="achievement_level_6" translatable="false">CgkIlbv7kqcJEAIQBw</string>
+    <!-- achievement level 7 -->
+    <string name="achievement_level_7" translatable="false">CgkIlbv7kqcJEAIQCA</string>
+    <!-- achievement level 8 -->
+    <string name="achievement_level_8" translatable="false">CgkIlbv7kqcJEAIQCQ</string>
+    <!-- achievement level 9 -->
+    <string name="achievement_level_9" translatable="false">CgkIlbv7kqcJEAIQCg</string>
+    <!-- achievement Level 10 -->
+    <string name="achievement_level_10" translatable="false">CgkIlbv7kqcJEAIQCw</string>
+    <!-- achievement Level 11 -->
+    <string name="achievement_level_11" translatable="false">CgkIlbv7kqcJEAIQDA</string>
+    <!-- achievement Instagram Achievement -->
+    <string name="achievement_level_12" translatable="false">CgkIlbv7kqcJEAIQDQ</string>
+    <!-- achievement Level 13 -->
+    <string name="achievement_level_13" translatable="false">CgkIlbv7kqcJEAIQDg</string>
+    <!-- achievement Level 14 -->
+    <string name="achievement_level_14" translatable="false">CgkIlbv7kqcJEAIQDw</string>
+    <!-- achievement Level 15 -->
+    <string name="achievement_level_15" translatable="false">CgkIlbv7kqcJEAIQEA</string>
+    <!-- leaderboard Leaderboard -->
+    <string name="leaderboard_leaderboard" translatable="false">CgkIlbv7kqcJEAIQAQ</string>
 </resources>
