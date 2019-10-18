@@ -1,35 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-                                                   xmlns:app="http://schemas.android.com/apk/res-auto"
-                                                   xmlns:tools="http://schemas.android.com/tools"
-                                                   android:id="@+id/main_layout"
-                                                   android:layout_width="match_parent"
-                                                   android:layout_height="match_parent"
-                                                   android:background="@android:color/white">
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/background">
 
     <ImageView
             android:id="@+id/imageView2"
             android:layout_width="329dp"
             android:layout_height="108dp"
             android:contentDescription="@string/desc_firebase_lockup"
-            android:src="@drawable/firebase_lockup_400"
+            android:src="@drawable/title"
             app:layout_constraintBottom_toTopOf="@+id/textView10"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"/>
+            app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
             android:id="@+id/textView10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Just A Tap Away! Pay and Get XP Boosted!"
-            android:textColor="@color/colorPrimary"
+            android:textColor="#ffffff"
             app:layout_constraintBottom_toTopOf="@+id/status"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/imageView2"/>
+            app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <TextView
             android:id="@+id/status"
@@ -38,7 +37,7 @@
             android:text="@string/app_details"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView10"/>
+            app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <Button
             android:id="@+id/leaderboard"
@@ -46,29 +45,36 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" android:background="@drawable/achieve"
-            app:layout_constraintBottom_toBottomOf="@+id/homeLogo" app:layout_constraintEnd_toStartOf="@+id/instagram"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/achieve"
+            app:layout_constraintBottom_toBottomOf="@+id/homeLogo"
+            app:layout_constraintEnd_toStartOf="@+id/instagram"
+            app:layout_constraintHorizontal_bias="0.273"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="@+id/instagram" app:layout_constraintVertical_bias="0.75"/>
+            app:layout_constraintTop_toTopOf="@+id/instagram"
+            app:layout_constraintVertical_bias="1.0" />
 
     <TextView
             android:id="@+id/textView4"
             style="@style/MainScreenButtonBlurb"
             android:layout_marginTop="8dp"
             android:text="@string/invite_players_explanation"
-            android:textColor="#060707" app:layout_constraintEnd_toEndOf="@+id/leaderboard"
+            android:textColor="#060707"
+            app:layout_constraintEnd_toEndOf="@+id/leaderboard"
             app:layout_constraintStart_toStartOf="@+id/leaderboard"
-            app:layout_constraintTop_toBottomOf="@+id/leaderboard"/>
+            app:layout_constraintTop_toBottomOf="@+id/leaderboard" />
 
     <TextView
             android:id="@+id/textView3"
             style="@style/MainScreenButtonBlurb"
             android:layout_width="wrap_content"
             android:layout_height="16dp"
-            android:layout_marginTop="8dp" android:text="@string/see_invitations_explanation"
-            android:textColor="#060707" app:layout_constraintEnd_toEndOf="@+id/achievement"
+            android:layout_marginTop="8dp"
+            android:text="@string/see_invitations_explanation"
+            android:textColor="#060707"
+            app:layout_constraintEnd_toEndOf="@+id/achievement"
             app:layout_constraintStart_toStartOf="@+id/achievement"
-            app:layout_constraintTop_toBottomOf="@+id/achievement"/>
+            app:layout_constraintTop_toBottomOf="@+id/achievement" />
 
 
     <Button
@@ -77,11 +83,14 @@
             android:layout_width="70dp"
             android:layout_height="70dp"
             android:layout_marginTop="8dp"
-            android:layout_marginBottom="8dp" android:background="@drawable/achievemnet_google_play_games_png"
-            app:layout_constraintBottom_toTopOf="@+id/homeLogo" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.531"
-            app:layout_constraintStart_toEndOf="@+id/instagram" app:layout_constraintTop_toTopOf="@+id/instagram"
-            app:layout_constraintVertical_bias="0.75"/>
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/achievemnet_google_play_games_png"
+            app:layout_constraintBottom_toTopOf="@+id/homeLogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.562"
+            app:layout_constraintStart_toEndOf="@+id/instagram"
+            app:layout_constraintTop_toTopOf="@+id/instagram"
+            app:layout_constraintVertical_bias="0.989" />
 
     <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/products"
@@ -93,17 +102,20 @@
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/status" app:layout_constraintVertical_bias="0.696"/>
+            app:layout_constraintTop_toBottomOf="@+id/status"
+            app:layout_constraintVertical_bias="0.696" />
 
     <Button
             android:id="@+id/instagram"
             style="@style/MainScreenButton"
             android:layout_width="80dp"
             android:layout_height="80dp"
-            android:layout_marginTop="48dp"
-            android:background="@drawable/instagram_new" app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498" app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/status"/>
+            android:layout_marginTop="36dp"
+            android:background="@drawable/instagram_new"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/status" />
 
     <TextView
             android:id="@+id/textViewIG"
@@ -111,9 +123,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:text="FollowUs On Instagram\n to unlock some Achievement" android:textColor="#060707"
-            app:layout_constraintEnd_toEndOf="@+id/instagram" app:layout_constraintStart_toStartOf="@+id/instagram"
-            app:layout_constraintTop_toBottomOf="@+id/instagram"/>
+            android:text="FollowUs On Instagram\n to unlock some Achievement"
+            android:textColor="#060707"
+            app:layout_constraintEnd_toEndOf="@+id/instagram"
+            app:layout_constraintStart_toStartOf="@+id/instagram"
+            app:layout_constraintTop_toBottomOf="@+id/instagram" />
 
 
     <ImageView
@@ -126,7 +140,7 @@
             app:layout_constraintHorizontal_bias="0.5"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/status"
-            app:srcCompat="@mipmap/ic_launcher_round"/>
+            app:srcCompat="@mipmap/ic_launcher_round" />
 
     <TextView
             android:id="@+id/detail"
@@ -135,7 +149,7 @@
             android:layout_height="886dp"
             android:visibility="gone"
             tools:ignore="MissingConstraints"
-            tools:text="Firebase User ID: 123456789abc"/>
+            tools:text="Firebase User ID: 123456789abc" />
 
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -160,7 +174,7 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"/>
+                app:layout_constraintTop_toTopOf="parent" />
 
         <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/signOutAndDisconnect"
@@ -188,7 +202,7 @@
                     app:layout_constraintEnd_toStartOf="@+id/disconnectButton"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toStartOf="parent"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
 
             <Button
                     android:id="@+id/disconnectButton"
@@ -202,7 +216,7 @@
                     app:layout_constraintEnd_toEndOf="parent"
                     app:layout_constraintHorizontal_bias="0.5"
                     app:layout_constraintStart_toEndOf="@+id/signOutButton"
-                    app:layout_constraintTop_toTopOf="parent"/>
+                    app:layout_constraintTop_toTopOf="parent" />
         </androidx.constraintlayout.widget.ConstraintLayout>
 
 

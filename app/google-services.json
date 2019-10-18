@@ -15,6 +15,30 @@
       },
       "oauth_client": [
         {
+          "client_id": "406810928854-6jurretaj2hbffvmqrmhhe71hqklh8ot.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowldevelopers.xpboosterplus",
+            "certificate_hash": "75b4fd31c3293ed2e33964f9470b137090ea4072"
+          }
+        },
+        {
+          "client_id": "406810928854-guq35c3a80qjho377kq320dva75qef1l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowldevelopers.xpboosterplus",
+            "certificate_hash": "cdd0306b28c70f7adb55d5aea09f2882d9d6e04c"
+          }
+        },
+        {
+          "client_id": "406810928854-6m6n8nsp0fer4icouf2kml1dfsaj73jk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nightowldevelopers.xpboosterplus",
+            "certificate_hash": "58424372806834dae8228e459fd4dd1269a2fee2"
+          }
+        },
+        {
           "client_id": "406810928854-n9oj9pivubjs9dhornvmh82d8resb4qr.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
