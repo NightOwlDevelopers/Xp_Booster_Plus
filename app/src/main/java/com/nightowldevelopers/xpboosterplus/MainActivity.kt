@@ -3,10 +3,8 @@ package com.nightowldevelopers.xpboosterplus
 
 import android.content.ActivityNotFoundException
 import android.content.Intent
-import android.media.MediaPlayer
 import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
 import android.util.Log
 import android.view.Gravity
 import android.view.View
