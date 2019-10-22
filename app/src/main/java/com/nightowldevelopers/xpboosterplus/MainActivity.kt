@@ -21,7 +21,7 @@ import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.GoogleAuthProvider
 import kotlinx.android.synthetic.main.activity_google.*
-import kotlinx.android.synthetic.main.activity_main.products
+//import kotlinx.android.synthetic.main.activity_main.products
 
 
 
@@ -159,7 +159,7 @@ class MainActivity : BaseActivity(), PurchasesUpdatedListener, View.OnClickListe
                     Intent(
                         Intent.ACTION_VIEW,
                         //Uri.parse("market://dev?id=$developerurl")
-                        Uri.parse("market://details?id=com.nightowldevelopers.levelup2")
+                        Uri.parse("market://details?id=com.nightowldevelopers.onetapxpboosterpremium")
                     )
                 )
 //                Games.getAchievementsClient(this, GoogleSignIn.getLastSignedInAccount(this)!!)
