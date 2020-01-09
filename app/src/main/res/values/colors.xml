@@ -19,8 +19,4 @@
     <color name="primary_color_dark">#263238</color>
     <color name="ascent_color">#4285F4</color>
 
-    <color name="colorPrimary">#039BE5</color>
-
-    <color name="grey_100">#F5F5F5</color>
-    <color name="grey_300">#00E0E0E0</color>
 </resources>
