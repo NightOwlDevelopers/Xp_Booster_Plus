@@ -21,13 +21,13 @@
     <string name="signed_out">Signed Out</string>
     <string name="desc_firebase_lockup">Firebase logo and name</string>
 
-    <string name="google_status_fmt">User: %s</string>
+    <string name="google_status_fmt">Boost For: %s</string>
 
 
     <string name="app_details">User : billgates@apple.com </string>
 
     <string name="game_blurb">You are <b>few seconds away</b>\nto won <b>Max XP</b> to your Account.</string>
-    <string name="invite_players_explanation">Your Leaderboard</string>
+    <string name="invite_players_explanation">Rate 5 star and\nearn 10k Xp Points</string>
     <string name="see_invitations_explanation">Your Achievements</string>
 
 </resources>

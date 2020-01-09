@@ -6,6 +6,8 @@ Save this file as res/values/games-ids.xml in your project.
 <resources>
     <!-- app_id -->
     <string name="app_id" translatable="false">406810928854</string>
+    <!-- package_name -->
+    <string name="package_name" translatable="false">com.nightowldevelopers.xpboosterplus</string>
     <!-- achievement Level 1 -->
     <string name="achievement_level_1" translatable="false">CgkI1s3IvusLEAIQAA</string>
     <!-- achievement Level 2 -->
@@ -32,10 +34,10 @@ Save this file as res/values/games-ids.xml in your project.
     <string name="achievement_level_12" translatable="false">CgkI1s3IvusLEAIQCw</string>
     <!-- achievement Level 13 -->
     <string name="achievement_level_13" translatable="false">CgkI1s3IvusLEAIQDA</string>
-    <!-- achievement Level 14 -->
-    <string name="achievement_level_14" translatable="false">CgkI1s3IvusLEAIQDQ</string>
-    <!-- achievement Level 15 -->
-    <string name="achievement_level_15" translatable="false">CgkI1s3IvusLEAIQDg</string>
+    <!-- achievement Instagram Achievement -->
+    <string name="achievement_instagram_achievement" translatable="false">CgkI1s3IvusLEAIQDQ</string>
+    <!-- achievement Rate Achievement -->
+    <string name="achievement_rate_achievement" translatable="false">CgkI1s3IvusLEAIQDg</string>
     <!-- leaderboard World Leaderboard -->
     <string name="leaderboard_world_leaderboard" translatable="false">CgkI1s3IvusLEAIQDw</string>
 </resources>

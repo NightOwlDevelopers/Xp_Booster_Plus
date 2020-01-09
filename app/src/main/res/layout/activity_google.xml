@@ -47,31 +47,34 @@
             app:layout_constraintBottom_toTopOf="@+id/signOutAndDisconnect1"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.5"
-            app:layout_constraintStart_toEndOf="@+id/textView4"
+            app:layout_constraintStart_toEndOf="@+id/textViewRate"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/status" />
 
     <Button
-            android:id="@+id/leaderboard"
+            android:id="@+id/rateApp"
             style="@style/MainScreenButton"
             android:layout_width="70dp"
             android:layout_height="70dp"
-            android:background="@drawable/achieve"
+            android:background="@drawable/rateus5"
             app:layout_constraintBottom_toTopOf="@+id/products"
             app:layout_constraintEnd_toStartOf="@+id/instagram"
             app:layout_constraintStart_toStartOf="@+id/imageView"
-            app:layout_constraintTop_toBottomOf="@+id/instagram" />
+            app:layout_constraintTop_toBottomOf="@+id/instagram"
+            app:layout_constraintVertical_bias="0.421" />
+
 
     <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textViewRate"
             style="@style/MainScreenButtonBlurb"
-            android:layout_marginTop="8dp"
+            android:layout_marginTop="4dp"
             android:text="@string/invite_players_explanation"
             android:textColor="#FFFFFF"
-            app:layout_constraintEnd_toEndOf="@+id/leaderboard"
-            app:layout_constraintStart_toStartOf="@+id/leaderboard"
-            app:layout_constraintTop_toBottomOf="@+id/leaderboard" />
-
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="@+id/rateApp"
+            app:layout_constraintHorizontal_bias="0.413"
+            app:layout_constraintStart_toStartOf="@+id/rateApp"
+            app:layout_constraintTop_toBottomOf="@+id/rateApp" />
 
     <TextView
             android:id="@+id/textView3"
@@ -114,15 +117,15 @@
     <Button
             android:id="@+id/instagram"
             style="@style/MainScreenButton"
-            android:layout_width="80dp"
-            android:layout_height="80dp"
-            android:background="@drawable/instagram_new"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/instagram"
             app:layout_constraintBottom_toTopOf="@+id/homeLogo"
             app:layout_constraintEnd_toStartOf="@+id/imageView"
             app:layout_constraintHorizontal_bias="0.502"
             app:layout_constraintStart_toEndOf="@+id/imageView"
             app:layout_constraintTop_toTopOf="@+id/imageView"
-            app:layout_constraintVertical_bias="0.123" />
+            app:layout_constraintVertical_bias="0.115" />
 
     <TextView
             android:id="@+id/textViewIG"
